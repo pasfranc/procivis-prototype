@@ -143,32 +143,6 @@
         "description": "Payment via PIN verification - Payment ID: pay_17544684604580sajqro5ml",
         "timestamp": "2025-08-06T08:22:07.484Z"
       }
-    },
-    {
-      "id": "1754139306498c8wj9t3lc",
-      "email": "stefania.carbone84@gmail.com",
-      "pin": "977506",
-      "pan": "5432543254325432",
-      "expiryDate": "12/27",
-      "cvc": "765",
-      "cardholderName": "Picci Patata",
-      "balance": 300,
-      "createdAt": "2025-08-02T12:55:06.530Z",
-      "credentialId": "a4d49bad-3da2-447d-a0f3-c90011fb2b8e",
-      "credentialCreatedAt": "2025-08-04T18:19:08.445Z",
-      "credentialHistory": [
-        {
-          "credentialId": "83ae469d-a2e7-4cfd-a836-a8f2736fd71e",
-          "replacedAt": "2025-08-04T18:19:08.445Z"
-        }
-      ],
-      "encryptedECD": "eyJpdiI6IjYzNzlhODY5NjBkNzFiMWU0MmNhYzhhZjk2MTU1ZjJmIiwiYXV0aFRhZyI6IjdlYjA4YmVjNmRhN2RiZmQ4MTBmZDBlZTg5ZDMyZWY4IiwiZGF0YSI6IjY1MjI5YjBiZGMwNDYzMDk3ZWNkYWI4YTM4YzZlMDM2NDlhZjcyNjVhNTQwYjIzZmEzNDhiN2Y1NGViMjdlM2U3MjYwODA0M2UwYTQ5ZTRkNzk4MmNkYjQ4MTc2Mjc1OTUwYjAwODM5ZmUzZjQ2NGNmNDdkMWYwYmYwZGFiY2M0YzMxYTQ3MGJhMTU4MmRhMmJiYjMxOTYzMTdkM2U0YWEyNDMyZTJjODI1YTE5MWQ5OThmMTdjYmFjMTQ2NzgxNmY2NmE4NWM5NzU3M2ZlMmI1MzU5ZDUwZjQxMjYzNDQwY2UyZmU5MmE4YjVlYmQ2ZmM1YWViOTkyMjg4ZDgwOTA0MDQwOGE5ZDUyY2Q2MyJ9",
-      "lastBalanceUpdate": {
-        "previousBalance": 400,
-        "newBalance": 300,
-        "description": "Payment via PIN verification - Payment ID: pay_1754331594590vn4asbxwiv",
-        "timestamp": "2025-08-04T18:20:38.865Z"
-      }
     }
   ],
   "lastUpdated": "2025-08-06T08:22:07.484Z",

@@ -16,6 +16,23 @@
         "url": "openid4vp://?client_id=verifier_attestation%3Ahttps%3A%2F%2Fcore.trial.procivis-one.com%2Fssi%2Fopenid4vp%2Fdraft-25%2Fresponse&request_uri=https%3A%2F%2Fcore.trial.procivis-one.com%2Fssi%2Fopenid4vp%2Fdraft-25%2Fdaac1dee-e7c8-4f7f-85c5-18e8c29abc7d%2Fclient-request",
         "appUrl": "https://universal-sharing.trial.procivis-one.com/app-link/openid4vp?client_id=verifier_attestation%3Ahttps%3A%2F%2Fcore.trial.procivis-one.com%2Fssi%2Fopenid4vp%2Fdraft-25%2Fresponse&request_uri=https%3A%2F%2Fcore.trial.procivis-one.com%2Fssi%2Fopenid4vp%2Fdraft-25%2Fdaac1dee-e7c8-4f7f-85c5-18e8c29abc7d%2Fclient-request"
       }
+    },
+    {
+      "id": "pay_17545700788389mcwjkaq7f",
+      "amount": 34,
+      "description": "Prova pagamento",
+      "merchantId": "cafe-central",
+      "status": "pending",
+      "createdAt": "2025-08-07T12:34:38.838Z",
+      "updatedAt": "2025-08-07T12:34:39.142Z",
+      "expiresAt": "2025-08-07T13:04:38.838Z",
+      "paymentUrl": "http://localhost:3000/api/payments/pay_17545700788389mcwjkaq7f/process",
+      "qrData": "{\"paymentId\":\"pay_17545700788389mcwjkaq7f\",\"amount\":34,\"description\":\"Prova pagamento\",\"merchantId\":\"cafe-central\",\"url\":\"http://localhost:3000/api/payments/pay_17545700788389mcwjkaq7f/process\"}",
+      "proofRequestId": "f1eb0105-f7ad-4441-899a-07486222845f",
+      "qrCode": {
+        "url": "openid4vp://?client_id=verifier_attestation%3Ahttps%3A%2F%2Fcore.trial.procivis-one.com%2Fssi%2Fopenid4vp%2Fdraft-25%2Fresponse&request_uri=https%3A%2F%2Fcore.trial.procivis-one.com%2Fssi%2Fopenid4vp%2Fdraft-25%2Ff1eb0105-f7ad-4441-899a-07486222845f%2Fclient-request",
+        "appUrl": "https://universal-sharing.trial.procivis-one.com/app-link/openid4vp?client_id=verifier_attestation%3Ahttps%3A%2F%2Fcore.trial.procivis-one.com%2Fssi%2Fopenid4vp%2Fdraft-25%2Fresponse&request_uri=https%3A%2F%2Fcore.trial.procivis-one.com%2Fssi%2Fopenid4vp%2Fdraft-25%2Ff1eb0105-f7ad-4441-899a-07486222845f%2Fclient-request"
+      }
     }
   ],
   "payments": [
@@ -205,7 +222,7 @@
       "userAgent": null
     }
   ],
-  "lastUpdated": "2025-08-07T08:37:35.028Z",
+  "lastUpdated": "2025-08-07T12:34:39.142Z",
   "version": "1.1",
   "description": "Payment system data - requests and all payment attempts (successful and failed)"
 }
