@@ -1,0 +1,38 @@
+<div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
+    <h2 style="color: #dc3545;">🚨 Security Alert - Payment Authentication Failed</h2>
+    <p>Dear <strong>{{cardholderName}}</strong>,</p>
+
+    <p>We detected a failed payment authentication on your account:</p>
+
+    <div
+        style="background: #f8f9fa; padding: 15px; border-radius: 5px; margin: 15px 0; border-left: 4px solid #ffc107;">
+        <strong>Payment Details:</strong><br>
+        Amount: €{{paymentAmount}}<br>
+        Merchant: {{merchantId}}<br>
+        Time: {{timestamp}}<br>
+        Consecutive failures: {{consecutiveFailures}}
+    </div>
+
+    <p><strong>If this was you:</strong> Please ensure you're entering the correct PIN.</p>
+
+    <p><strong>If this was NOT you:</strong> Your account may be compromised.
+        For your security, you can immediately suspend your credential by clicking the button below:</p>
+
+    <div style="text-align: center; margin: 20px 0;">
+        <a href="{{suspendUrl}}"
+            style="background: #dc3545; color: white; padding: 12px 24px; text-decoration: none; border-radius: 5px; display: inline-block;">
+            🔒 Suspend My Credential
+        </a>
+    </div>
+
+    <div
+        style="background-color: #fff3cd; padding: 15px; border: 1px solid #ffeaa7; border-radius: 5px; margin: 20px 0;">
+        <p style="color: #856404; margin: 0; font-size: 12px;">This action will temporarily disable your credential for
+            30 days. You can contact customer service to reactivate it.</p>
+    </div>
+
+    <hr style="margin-top: 30px; border: none; border-top: 1px solid #eee;">
+    <p style="font-size: 12px; color: #6c757d;">
+        If you have any questions, please contact our support team immediately.
+    </p>
+</div>

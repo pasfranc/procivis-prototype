@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banking Account Management</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <!-- Frontend Configuration -->
+    <script src="/js/config.js"></script>
+    <!-- QR Code Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode/1.5.3/qrcode.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🏦 Banking Account Management</h1>
+            <p>Manage customer accounts securely and efficiently</p>
+        </div>
+
+        <div class="content">
+            <!-- Add Account Form -->
+            <div class="card">
+                <h2>Add New Account</h2>
+
+                <div id="formAlert" class="alert" style="display: none;"></div>
+
+                <form id="accountForm">
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="pan">Card Number (PAN)</label>
+                        <input type="text" id="pan" name="pan" placeholder="1234567890123456" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="expiryDate">Expiry Date</label>
+                        <input type="text" id="expiryDate" name="expiryDate" placeholder="MM/YY" maxlength="5" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="cvc">CVC</label>
+                        <input type="text" id="cvc" name="cvc" placeholder="123" maxlength="4" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="cardholderName">Cardholder Name</label>
+                        <input type="text" id="cardholderName" name="cardholderName" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="balance">Initial Balance (€)</label>
+                        <input type="number" id="balance" name="balance" min="0" step="0.01" placeholder="0.00"
+                            required>
+                    </div>
+
+                    <button type="submit" class="btn" id="submitBtn">
+                        <span id="submitText">Add Account</span>
+                        <span id="submitLoading" class="loading" style="display: none;"></span>
+                    </button>
+                </form>
+            </div>
+
+            <!-- Quick Stats -->
+            <div class="card">
+                <h2>Quick Stats</h2>
+                <div class="stats">
+                    <div class="stats-item">
+                        <div class="stats-number" id="totalAccounts">0</div>
+                        <div class="stats-label">Total Accounts</div>
+                    </div>
+                    <div class="stats-item">
+                        <div class="stats-number" id="serverStatus">⚪</div>
+                        <div class="stats-label">Server Status</div>
+                    </div>
+                </div>
+                <div id="serverInfo" class="alert alert-info">
+                    <strong>Server:</strong> <span id="serverDetails">Checking connection...</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Accounts Table -->
+        <div class="card accounts-section">
+            <h2>Existing Accounts</h2>
+
+            <div id="tableAlert" class="alert" style="display: none;"></div>
+
+            <div class="table-container">
+                <table id="accountsTable">
+                    <thead>
+                        <tr>
+                            <th>Email</th>
+                            <th>Card Number</th>
+                            <th>Expiry Date</th>
+                            <th>Cardholder Name</th>
+                            <th>Balance</th>
+                            <th>Created</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="accountsTableBody">
+                        <tr>
+                            <td colspan="7">
+                                <div class="empty-state">
+                                    <div class="loading"></div>
+                                    Loading accounts...
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- QR Code Modal -->
+    <div id="qrModal" class="qr-modal" style="display: none;">
+        <div class="qr-modal-content">
+            <span class="close-qr" onclick="closeQRModal()">&times;</span>
+
+            <div class="qr-modal-header">
+                <h2>🎫 Credential Ready!</h2>
+                <p>Scan the QR code to receive the credential in your wallet</p>
+            </div>
+
+            <div class="qr-modal-body">
+                <div class="qr-code-container">
+                    <div id="qrCodeDisplay"></div>
+                </div>
+
+                <div class="qr-actions">
+                    <button class="qr-btn primary" onclick="closeQRModal()">✅ Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- QR Code Library - Simple and reliable -->
+    <script src="https://cdn.jsdelivr.net/npm/qrcode-generator@1.4.4/qrcode.min.js"></script>
+    <!-- Your application script -->
+    <script src="/js/bank.js"></script>
+</body>
+
+</html>

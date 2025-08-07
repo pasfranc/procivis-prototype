@@ -1,0 +1,23 @@
+SECURITY ALERT - Payment Authentication Failed
+
+Dear {{cardholderName}},
+
+We detected a failed payment authentication on your account:
+
+Payment Details:
+- Amount: €{{paymentAmount}}
+- Merchant: {{merchantId}}
+- Time: {{timestamp}}
+- Consecutive failures: {{consecutiveFailures}}
+
+If this was you: Please ensure you're entering the correct PIN.
+
+If this was NOT you: Your account may be compromised. For your security, you can immediately suspend your credential by visiting this link:
+
+{{suspendUrl}}
+
+IMPORTANT: This action will temporarily disable your credential for 30 days. You can contact customer service to reactivate it.
+
+If you have any questions, please contact our support team immediately.
+
+This is an automated message. Please do not reply to this email.

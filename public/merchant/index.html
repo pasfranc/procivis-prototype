@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merchant Payment System</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <!-- Frontend Configuration -->
+    <script src="/js/config.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>💳 Merchant Payment System</h1>
+            <p>Accept payments using verifiable credentials</p>
+        </div>
+
+        <div class="content">
+            <!-- Payment Request Form -->
+            <div class="card">
+                <h2>Create Payment Request</h2>
+
+                <div id="paymentAlert" class="alert hidden"></div>
+
+                <form id="paymentForm">
+                    <div class="form-group">
+                        <label for="amount">Payment Amount (€)</label>
+                        <input type="number" id="amount" name="amount" min="0.01" step="0.01" placeholder="10.00"
+                            required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="description">Description (Optional)</label>
+                        <input type="text" id="description" name="description" placeholder="Coffee and pastry">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="merchantId">Merchant ID</label>
+                        <input type="text" id="merchantId" name="merchantId" value="cafe-central"
+                            placeholder="merchant-id">
+                    </div>
+
+                    <button type="submit" class="btn" id="createPaymentBtn">
+                        <span id="createPaymentText">Create Payment Request</span>
+                        <span id="createPaymentLoading" class="loading" style="display: none;"></span>
+                    </button>
+                </form>
+            </div>
+
+            <!-- Payment Status -->
+            <div class="card">
+                <h2>Payment Status</h2>
+                <div id="paymentStatus">
+                    <div class="empty-state">
+                        <h3>No active payment</h3>
+                        <p>Create a payment request to start accepting payments.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- All Payments List (Prototype) -->
+        <div class="card accounts-section">
+            <h2>All Recent Payments (Prototype View)</h2>
+            <div id="paymentsTableContainer">
+                <div class="empty-state">
+                    <h3>No payments yet</h3>
+                    <p>Payment history will appear here.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Payment QR Code Modal -->
+    <div id="paymentQRModal" class="qr-modal" style="display: none;">
+        <div class="qr-modal-content">
+            <span class="close-qr" onclick="closePaymentQRModal()">&times;</span>
+
+            <div class="qr-modal-header">
+                <h2>💳 Payment Request Ready!</h2>
+                <p>Customer can scan this QR code to pay with their credential</p>
+                <div class="payment-info">
+                    <div class="payment-amount">€<span id="modalPaymentAmount">0.00</span></div>
+                    <div class="payment-description" id="modalPaymentDescription"></div>
+                </div>
+            </div>
+
+            <div class="qr-modal-body">
+                <div class="qr-code-container">
+                    <div id="paymentQRCodeDisplay"></div>
+                </div>
+
+                <div class="payment-status-info">
+                    <div class="status-indicator" id="paymentStatusIndicator">
+                        <span class="status-dot pending"></span>
+                        <span class="status-text">Waiting for customer...</span>
+                    </div>
+                </div>
+
+                <!-- PIN Input Section (hidden by default) -->
+                <div id="pinInputSection" class="pin-input-section" hidden>
+                    <h3>🔐 Enter PIN to Complete Payment</h3>
+                    <p>Customer has verified their credentials. Please enter the 6-digit PIN to complete the payment.
+                    </p>
+
+                    <div class="pin-form">
+                        <input type="text" id="pinInput" maxlength="6" placeholder="123456" class="pin-input"
+                            autocomplete="off">
+                        <div class="pin-buttons">
+                            <button class="qr-btn" onclick="submitPIN()">✅ Complete Payment</button>
+                            <button class="qr-btn" onclick="cancelPayment()">❌ Cancel</button>
+                        </div>
+                    </div>
+
+                    <div id="pinError" class="pin-error" hidden></div>
+                </div>
+
+                <div class="qr-actions">
+                    <button class="qr-btn primary" onclick="closePaymentQRModal()">✅ Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- QR Code Library -->
+    <script src="https://cdn.jsdelivr.net/npm/qrcode-generator@1.4.4/qrcode.min.js"></script>
+    <!-- Merchant App Script -->
+    <script src="/js/merchant.js"></script>
+</body>
+
+</html>

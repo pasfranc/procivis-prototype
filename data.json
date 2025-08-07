@@ -1,0 +1,176 @@
+{
+  "accounts": [
+    {
+      "id": "1722518400123abc456def",
+      "email": "mario.rossi@example.com",
+      "pin": "123456",
+      "pan": "4532123456789012",
+      "expiryDate": "12/26",
+      "cvc": "123",
+      "cardholderName": "Mario Rossi",
+      "balance": 1500.5,
+      "createdAt": "2025-08-02T10:30:00.000Z",
+      "credentialId": "1e276096-6fec-4242-9baa-4b485c2cd497",
+      "credentialCreatedAt": "2025-08-04T14:24:43.923Z",
+      "credentialHistory": [
+        {
+          "credentialId": "0cdba307-31bc-48e3-805d-bac04d9ae929",
+          "replacedAt": "2025-08-04T13:07:57.637Z"
+        },
+        {
+          "credentialId": "b931eb7c-afb0-451c-8c3d-b6110cf168cd",
+          "replacedAt": "2025-08-04T13:34:27.030Z"
+        },
+        {
+          "credentialId": "e060d572-0318-4a01-bf81-4d05329a2973",
+          "replacedAt": "2025-08-04T13:39:15.121Z"
+        },
+        {
+          "credentialId": "bbc3cade-d1a3-424c-bd72-b013b5331e20",
+          "replacedAt": "2025-08-04T14:24:43.923Z"
+        }
+      ],
+      "encryptedECD": "eyJpdiI6ImFiY2RlZjEyMzQ1NiIsImF1dGhUYWciOiJnaGlqa2xtbm9wIiwiZGF0YSI6InF3ZXJ0eXVpb3Bhc2RmZ2hqa2wifQ=="
+    },
+    {
+      "id": "1722518500456def789ghi",
+      "email": "giulia.bianchi@example.com",
+      "pin": "654321",
+      "pan": "5555444433332222",
+      "expiryDate": "09/27",
+      "cvc": "456",
+      "cardholderName": "Giulia Bianchi",
+      "balance": 2750.25,
+      "createdAt": "2025-08-02T11:15:00.000Z",
+      "credentialId": "ea753675-ebd1-4131-aa00-3797fcf61a59",
+      "credentialCreatedAt": "2025-08-04T10:18:48.078Z",
+      "credentialHistory": [
+        {
+          "credentialId": "credential-xyz-789",
+          "replacedAt": "2025-08-04T10:18:48.078Z"
+        }
+      ],
+      "encryptedECD": "eyJpdiI6Inp4Y3ZibnFhc2QiLCJhdXRoVGFnIjoibmJxd2VydHl1aSIsImRhdGEiOiJhc2RmZ2hqa2x6eGN2Ym4ifQ=="
+    },
+    {
+      "id": "1722518600789ghi012jkl",
+      "email": "luca.ferrari@example.com",
+      "pin": "789012",
+      "pan": "4111111111111111",
+      "expiryDate": "06/28",
+      "cvc": "789",
+      "cardholderName": "Luca Ferrari",
+      "balance": 890.75,
+      "createdAt": "2025-08-02T12:00:00.000Z",
+      "credentialId": "069130c4-3a9d-4e2d-9531-1fd27eec143a",
+      "credentialCreatedAt": "2025-08-02T12:11:23.504Z",
+      "credentialHistory": [],
+      "encryptedECD": "eyJpdiI6ImpoZ2Zkc2FxdyIsImF1dGhUYWciOiJlcnR5dWlvcGFzIiwiZGF0YSI6InF3ZXJ0eXVpb3Bhc2RmZ2gifQ=="
+    },
+    {
+      "id": "1754137056216hgpxfjijp",
+      "email": "pasfranc@gmail.com",
+      "pin": "885661",
+      "pan": "6543765487659876",
+      "expiryDate": "12/34",
+      "cvc": "555",
+      "cardholderName": "Pako2",
+      "balance": 22,
+      "createdAt": "2025-08-02T12:17:36.244Z",
+      "credentialId": "980ed4c1-27dc-49c8-bb5e-91fe48fee52c",
+      "credentialCreatedAt": "2025-08-06T08:19:52.394Z",
+      "credentialHistory": [
+        {
+          "credentialId": "3601640a-85f3-4a22-99ac-32194992eaeb",
+          "replacedAt": "2025-08-04T14:33:14.654Z"
+        },
+        {
+          "credentialId": "c955f132-e1dd-45a9-8354-8f6e6d7f3213",
+          "replacedAt": "2025-08-04T14:54:42.045Z"
+        },
+        {
+          "credentialId": "7fc1bce3-5813-4897-a8d7-823eeab28e2f",
+          "replacedAt": "2025-08-05T07:55:55.221Z"
+        },
+        {
+          "credentialId": "525fa402-b606-4aa7-819e-190a14bbc752",
+          "replacedAt": "2025-08-05T08:15:55.598Z"
+        },
+        {
+          "credentialId": "4e6ca090-b2d1-49eb-addc-bcdd8b97fc25",
+          "replacedAt": "2025-08-05T08:22:57.589Z"
+        },
+        {
+          "credentialId": "9c76f10c-3f96-4e3c-9b7d-0ccdc5340462",
+          "replacedAt": "2025-08-05T08:37:13.833Z"
+        },
+        {
+          "credentialId": "ba4d4100-e02c-4121-9698-31cde1f11c6e",
+          "replacedAt": "2025-08-05T08:39:28.690Z"
+        },
+        {
+          "credentialId": "89d60847-1faa-4fe8-ac39-49413899559a",
+          "replacedAt": "2025-08-05T08:52:58.914Z"
+        },
+        {
+          "credentialId": "53a519fa-c0df-4c63-a685-e45d09a7b682",
+          "replacedAt": "2025-08-05T09:21:29.646Z"
+        },
+        {
+          "credentialId": "e25f39fd-c0df-4705-96bd-cbc0fc5a6ec5",
+          "replacedAt": "2025-08-05T12:22:04.440Z"
+        },
+        {
+          "credentialId": "81df657b-74c9-4f27-ad51-7151b66d62bd",
+          "replacedAt": "2025-08-05T13:15:17.086Z"
+        },
+        {
+          "credentialId": "cf33598c-f7fe-4aa9-9647-0636ac43561e",
+          "replacedAt": "2025-08-06T08:19:52.393Z"
+        }
+      ],
+      "encryptedECD": "eyJpdiI6IjQ2MjM3Y2I3MjI2NjYzMjY1NzE4MDhlNzJlYTZhZjA0IiwiYXV0aFRhZyI6IjdiOTBkOWI1ZjA0N2UwOWU2ODk1OWQ4YzdhZDM1NDg5IiwiZGF0YSI6IjEzM2I2OTdhNzliYzk1MzhiNzBmNDU5YWQ4YjQ5NDJkYWQ0M2Q0MzE3Y2NhNDY2MzYzMTc3ZGVlY2U3ZGJiNmZmZDQ5OGNmOTlmYTcyZWQxNjMwMTFkNzg2YTE1ZWE5OWQ3MGEyNWYzNzk0ODY0OTI3MTY1ODE0MGY2N2VhMTc1ZjFmYzRjYjM0NzdhNjUyYmVhNzYwMWZmMDY2YTIyZjQ1NmRhZTkxNmZhZDVhOTA5NDVlMzA3OWE1OWZhNTM3OTlmMTRlNTE1ZWI5YTYwYzIyZDhhNmQ3NTZiODJhNWFhZjQxYzU1YjYyYjc0YWZiNDUwNjU0ZjViYTU4YzNkZTUzYmYxMDEzNGY3NWQ3YyJ9",
+      "lastPayment": {
+        "amount": 200,
+        "description": "Payment via credential verification - Payment ID: pay_17542968938587xtgtdxck",
+        "timestamp": "2025-08-04T08:41:43.307Z",
+        "previousBalance": 444,
+        "newBalance": 244
+      },
+      "lastBalanceUpdate": {
+        "previousBalance": 88,
+        "newBalance": 22,
+        "description": "Payment via PIN verification - Payment ID: pay_17544684604580sajqro5ml",
+        "timestamp": "2025-08-06T08:22:07.484Z"
+      }
+    },
+    {
+      "id": "1754139306498c8wj9t3lc",
+      "email": "stefania.carbone84@gmail.com",
+      "pin": "977506",
+      "pan": "5432543254325432",
+      "expiryDate": "12/27",
+      "cvc": "765",
+      "cardholderName": "Picci Patata",
+      "balance": 300,
+      "createdAt": "2025-08-02T12:55:06.530Z",
+      "credentialId": "a4d49bad-3da2-447d-a0f3-c90011fb2b8e",
+      "credentialCreatedAt": "2025-08-04T18:19:08.445Z",
+      "credentialHistory": [
+        {
+          "credentialId": "83ae469d-a2e7-4cfd-a836-a8f2736fd71e",
+          "replacedAt": "2025-08-04T18:19:08.445Z"
+        }
+      ],
+      "encryptedECD": "eyJpdiI6IjYzNzlhODY5NjBkNzFiMWU0MmNhYzhhZjk2MTU1ZjJmIiwiYXV0aFRhZyI6IjdlYjA4YmVjNmRhN2RiZmQ4MTBmZDBlZTg5ZDMyZWY4IiwiZGF0YSI6IjY1MjI5YjBiZGMwNDYzMDk3ZWNkYWI4YTM4YzZlMDM2NDlhZjcyNjVhNTQwYjIzZmEzNDhiN2Y1NGViMjdlM2U3MjYwODA0M2UwYTQ5ZTRkNzk4MmNkYjQ4MTc2Mjc1OTUwYjAwODM5ZmUzZjQ2NGNmNDdkMWYwYmYwZGFiY2M0YzMxYTQ3MGJhMTU4MmRhMmJiYjMxOTYzMTdkM2U0YWEyNDMyZTJjODI1YTE5MWQ5OThmMTdjYmFjMTQ2NzgxNmY2NmE4NWM5NzU3M2ZlMmI1MzU5ZDUwZjQxMjYzNDQwY2UyZmU5MmE4YjVlYmQ2ZmM1YWViOTkyMjg4ZDgwOTA0MDQwOGE5ZDUyY2Q2MyJ9",
+      "lastBalanceUpdate": {
+        "previousBalance": 400,
+        "newBalance": 300,
+        "description": "Payment via PIN verification - Payment ID: pay_1754331594590vn4asbxwiv",
+        "timestamp": "2025-08-04T18:20:38.865Z"
+      }
+    }
+  ],
+  "lastUpdated": "2025-08-06T08:22:07.484Z",
+  "securityNotice": "This file contains sensitive financial data. Ensure proper encryption and access controls in production."
+}
