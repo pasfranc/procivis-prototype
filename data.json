@@ -66,8 +66,23 @@
       "credentialCreatedAt": "2025-08-02T12:11:23.504Z",
       "credentialHistory": [],
       "encryptedECD": "eyJpdiI6ImpoZ2Zkc2FxdyIsImF1dGhUYWciOiJlcnR5dWlvcGFzIiwiZGF0YSI6InF3ZXJ0eXVpb3Bhc2RmZ2gifQ=="
+    },
+    {
+      "id": "17545712166625sz19ezs6",
+      "email": "pasfranc@gmail.com",
+      "pin": "746258",
+      "pan": "4141525263637474",
+      "expiryDate": "12/30",
+      "cvc": "111",
+      "cardholderName": "Pasquale Francavilla",
+      "balance": 5000,
+      "createdAt": "2025-08-07T12:53:36.704Z",
+      "credentialId": null,
+      "credentialCreatedAt": null,
+      "credentialHistory": [],
+      "encryptedECD": "eyJpdiI6Ijc1ZjY2MGI3YmJmMGMzZGIxNjIwOTA1OThlMWM1MWI2IiwiYXV0aFRhZyI6IjIwYzIzZTllMWNhYTUyN2JhOGYxZmM5NTBkN2IzYjhkIiwiZGF0YSI6IjgwZDhjMDFlODQ0NzM2M2Q3ZGYzY2NkZTI0YThhOWE5MjU2MWJjN2YyMDA1OGVhNGMyNTY2NzI0YzFmODJjYjA0NjZjNDFiMjJlZmY0NzAyYTQzYmIzM2ZhYmQzY2ExODlkZDg1MTAwOGJmMDhmMTliOGQ2ZTg2MzFjY2FkZDQ1NWU3ODU5NTIyMGUwOTM1YjFjMDJlZmM2ZTMwMzlhZmQzNWM3MGExYjE0OTViNWE3YTJmZTQxMGM3ZjIwMzQ2Y2VjNDFkODBhMDdmODE3M2Q0YWIzNDU5NThmOGFlODI5NTdjNjQzMDdjOTg0NjFiYjFkNTY1ZWU4ZGEwMTJlM2MxNmY1MzU0OTk0M2RmZSJ9"
     }
   ],
-  "lastUpdated": "2025-08-07T12:51:20.184Z",
+  "lastUpdated": "2025-08-07T12:53:36.704Z",
   "securityNotice": "This file contains sensitive financial data. Ensure proper encryption and access controls in production."
 }
