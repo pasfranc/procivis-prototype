@@ -22,7 +22,6 @@ A complete banking system prototype integrating traditional payment processing w
 1. **Clone the repository**
    ```bash
    git clone https://github.com/pasfranc/procivis-prototype.git
-   cd banking-system
    ```
 
 2. **Install dependencies**
