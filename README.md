@@ -125,7 +125,7 @@ A complete banking system prototype integrating traditional payment processing w
 
 ## 🔒 Security
 
-- **Card Data Encryption**: AES-256-GCM with account-specific keys
+- **Card Data Encryption**: AES-256-GCM
 - **Configurable Thresholds**: Customize security policies via environment
 - **Progressive Response**: Alert → Multiple alerts → Automatic revocation
 - **Audit Trail**: Complete logging of all payment attempts
