@@ -68,21 +68,27 @@
       "encryptedECD": "eyJpdiI6ImpoZ2Zkc2FxdyIsImF1dGhUYWciOiJlcnR5dWlvcGFzIiwiZGF0YSI6InF3ZXJ0eXVpb3Bhc2RmZ2gifQ=="
     },
     {
-      "id": "17545712166625sz19ezs6",
+      "id": "17545777664959iukue3zo",
       "email": "pasfranc@gmail.com",
-      "pin": "746258",
+      "pin": "233969",
       "pan": "4141525263637474",
       "expiryDate": "12/30",
-      "cvc": "111",
-      "cardholderName": "Pasquale Francavilla",
-      "balance": 5000,
-      "createdAt": "2025-08-07T12:53:36.704Z",
-      "credentialId": null,
-      "credentialCreatedAt": null,
+      "cvc": "444",
+      "cardholderName": "Pasquale",
+      "balance": 370,
+      "createdAt": "2025-08-07T14:42:46.524Z",
+      "credentialId": "c8a861fa-69d3-4766-925f-858d26d2e17a",
+      "credentialCreatedAt": "2025-08-07T14:43:09.450Z",
       "credentialHistory": [],
-      "encryptedECD": "eyJpdiI6Ijc1ZjY2MGI3YmJmMGMzZGIxNjIwOTA1OThlMWM1MWI2IiwiYXV0aFRhZyI6IjIwYzIzZTllMWNhYTUyN2JhOGYxZmM5NTBkN2IzYjhkIiwiZGF0YSI6IjgwZDhjMDFlODQ0NzM2M2Q3ZGYzY2NkZTI0YThhOWE5MjU2MWJjN2YyMDA1OGVhNGMyNTY2NzI0YzFmODJjYjA0NjZjNDFiMjJlZmY0NzAyYTQzYmIzM2ZhYmQzY2ExODlkZDg1MTAwOGJmMDhmMTliOGQ2ZTg2MzFjY2FkZDQ1NWU3ODU5NTIyMGUwOTM1YjFjMDJlZmM2ZTMwMzlhZmQzNWM3MGExYjE0OTViNWE3YTJmZTQxMGM3ZjIwMzQ2Y2VjNDFkODBhMDdmODE3M2Q0YWIzNDU5NThmOGFlODI5NTdjNjQzMDdjOTg0NjFiYjFkNTY1ZWU4ZGEwMTJlM2MxNmY1MzU0OTk0M2RmZSJ9"
+      "encryptedECD": "eyJpdiI6IjQwZTJhMGQ4ZjIxYTgyMjUzZGQxMmViODcwNDZmZThmIiwiYXV0aFRhZyI6IjdkNjlmZGUxZjc5YjIwMTEwNTY2M2U5NDQ5ZTBhZmU3IiwiZGF0YSI6IjBjYmY1YzRlZGQ4MGNlZGQ0ZjhkN2YxMGU1NWUyYjcwOGJkNWUwZDcxNWQ0M2QzZjdlNzczOGMwNTU2NGUyMzI0MjU3NTU0MTc3ZDE3NDM3MjAwMjI0MGNhYWE2NDY5MjNhOTFhYWMwYzBmYjBlYmI3ZjMxM2Q1MDJhYjcxMTBmODdkMzdkNDQ1MzYzODNmNjllNzIzZWI5ZTIzYThhNTk5OTY2YjU1NDNlZWY0ZGZhNWEyYzkzOTFkMTllMTI3OWExODY2MGM0MTkwNzc1Yzc3ZTQ5NGU3MjQzMTdkNDg0ZWI5YjY4MGQyY2JhOTU5MjFiNDliM2JhMzdkYjU4ODE0MWE0MWJiNjc3NzVmZiJ9",
+      "lastBalanceUpdate": {
+        "previousBalance": 400,
+        "newBalance": 370,
+        "description": "Payment via PIN verification - Payment ID: pay_175457781600305gknrq5q3",
+        "timestamp": "2025-08-07T14:44:00.170Z"
+      }
     }
   ],
-  "lastUpdated": "2025-08-07T12:53:36.704Z",
+  "lastUpdated": "2025-08-07T14:44:00.170Z",
   "securityNotice": "This file contains sensitive financial data. Ensure proper encryption and access controls in production."
 }
