@@ -88,6 +88,7 @@ class EmailService {
 
         try {
             console.log('📧 Sending PIN email to:', email);
+            console.log('📧 Sending PIN email to:', pin);
 
             // Verify SMTP connection
             await this.transporter.verify();

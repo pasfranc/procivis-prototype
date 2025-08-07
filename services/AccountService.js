@@ -442,7 +442,7 @@ class AccountService {
         console.log(`New account created: ${newAccount.cardholderName} (${newAccount.email}) - Balance: €${newAccount.balance}`);
 
         // Return account without sensitive data for API responses
-        const { encryptedECD: _, cvc: __, pin: ___, ...publicAccount } = newAccount;
+        const { encryptedECD: _, cvc: __, ...publicAccount } = newAccount;
         return {
             ...publicAccount,
             panMasked: this.maskPAN(newAccount.pan),
