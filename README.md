@@ -163,17 +163,4 @@ Located in `/templates/`:
 - **Integration**: Procivis One API
 - **Email**: SMTP Gmail integration
 
-## 📋 Environment Variables
-
-| Variable | Required | Description |
-|----------|----------|-------------|
-| `PORT` | No | Server port (default: 3000) |
-| `SMTP_HOST` | Yes* | SMTP server hostname |
-| `SMTP_USER` | Yes* | SMTP username |
-| `SMTP_PASS` | Yes* | SMTP password |
-| `ENCRYPTION_SALT` | Yes | Encryption salt (32+ chars) |
-| `PROCIVIS_CLIENT_SECRET` | No | Procivis API secret |
-| `MAX_PIN_FAILURES_BEFORE_REVOKE` | No | Revocation threshold (default: 5) |
-| `MAX_PIN_FAILURES_BEFORE_ALERT` | No | Alert threshold (default: 2) |
-
 *Required for email functionality
